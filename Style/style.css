@@ -1,4 +1,4 @@
-.h1,h2,h3,h4,h5,h6,p,a,span,ul,li {
+h1,h2,h3,h4,h5,h6,p,a,span,ul,li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     transition: all ease-in-out 0.3s;
+    font-family: var(--robboto-font);
 }
 
 :root {
@@ -32,3 +33,11 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
 }
+
+
+/* banner image css start */
+
+.masum-image{
+    margin-bottom: 100px;
+}
+/* banner image css end */
